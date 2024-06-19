@@ -31,4 +31,4 @@ jobs:
         uses: dduzgun-security/secure-code-game-action@v2.0
         with:
           who-to-greet: "Jarvis, obviously ..."
-          get-token: ${{ secrets.TOKEN }}
+          get-token: ${{ secrets.MY_TOKEN }}
